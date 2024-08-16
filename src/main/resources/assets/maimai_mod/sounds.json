@@ -1,0 +1,14 @@
+{
+  "maimaisound": {
+    "subtitle": "sounds.maimai_mod.music_of_maimai",
+    "sounds": [
+      "maimai_mod:maimaisound"
+    ]
+  },
+  "maimai_start": {
+    "subtitle": "sounds.maimai_mod.start_of_maimai",
+    "sounds": [
+      "maimai_mod:maimai_start"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "maimai_mod",
+	"version": "${version}",
+	"name": "maimai Mod",
+	"description": "Here is a maimai model for you to put in your world!",
+	"authors": [
+		"Evening_City"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/maimai_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.maimai_mod.Maimai_Mod"
+		],
+		"client": [
+			"name.maimai_mod.Maimai_ModClient"
+		],
+		"fabric-datagen": [
+			"name.maimai_mod.Maimai_ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"maimai_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

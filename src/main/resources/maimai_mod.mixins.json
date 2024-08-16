@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "name.maimai_mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "Maimai_ModMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
